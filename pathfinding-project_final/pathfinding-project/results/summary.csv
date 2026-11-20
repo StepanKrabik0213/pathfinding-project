@@ -1,0 +1,124 @@
+environment,placement,grid,density,algorithm,status,maps,runs,mean_cost,nodes_mean,nodes_sd,pct_open_cells_expanded,time_ms_mean,time_ms_sd_between_maps,time_ms_sd_all_runs,time_ms_sd_within_map_avg
+random,corner,10x10,0.1,Dijkstra,solved,10,100,18,88.7,3.5,99.4,0.3308,0.0824,0.1184,0.0713
+random,corner,10x10,0.1,A*,solved,10,100,18,79.4,8.1,89.0,0.3472,0.0824,0.142,0.104
+random,corner,10x10,0.1,A* (tie-break),solved,10,100,18,22.3,4.3,25.1,0.0975,0.0223,0.048,0.0298
+random,corner,10x10,0.2,Dijkstra,solved,6,60,18,79.8,5.7,98.9,0.3082,0.0623,0.0789,0.0505
+random,corner,10x10,0.2,Dijkstra,unreachable,4,40,,16.8,17.1,21.8,0.0922,0.085,0.1082,0.0612
+random,corner,10x10,0.2,A*,solved,6,60,18,67.2,12.6,82.8,0.3186,0.0848,0.1175,0.0697
+random,corner,10x10,0.2,A*,unreachable,4,40,,16.8,17.1,21.8,0.0837,0.0978,0.0958,0.0304
+random,corner,10x10,0.2,A* (tie-break),solved,6,60,18,23.5,6.0,29.5,0.1143,0.0162,0.0712,0.0404
+random,corner,10x10,0.2,A* (tie-break),unreachable,4,40,,16.8,17.1,21.8,0.0745,0.0828,0.0771,0.0202
+random,corner,10x10,0.3,Dijkstra,solved,4,40,18,70.8,8.7,96.7,0.2694,0.0491,0.1128,0.0842
+random,corner,10x10,0.3,Dijkstra,unreachable,6,60,,9,12.1,13.7,0.0326,0.0458,0.0461,0.01
+random,corner,10x10,0.3,A*,solved,4,40,18,48,7.6,65.7,0.1937,0.0329,0.0531,0.0402
+random,corner,10x10,0.3,A*,unreachable,6,60,,9,12.1,13.7,0.0381,0.0532,0.0534,0.0115
+random,corner,10x10,0.3,A* (tie-break),solved,4,40,18,24.5,5.9,34.1,0.1365,0.0772,0.2226,0.1282
+random,corner,10x10,0.3,A* (tie-break),unreachable,6,60,,9,12.1,13.7,0.0371,0.0535,0.0537,0.0103
+random,corner,25x25,0.1,Dijkstra,solved,9,90,48,562,9.0,99.9,2.1482,0.2206,0.6113,0.5564
+random,corner,25x25,0.1,Dijkstra,unreachable,1,10,,11,0.0,2.0,0.0325,0.0,0.005,0.005
+random,corner,25x25,0.1,A*,solved,9,90,48,465.4,36.6,82.8,2.0584,0.1697,0.5163,0.502
+random,corner,25x25,0.1,A*,unreachable,1,10,,11,0.0,2.0,0.035,0.0,0.003,0.003
+random,corner,25x25,0.1,A* (tie-break),solved,9,90,48,79.1,16.1,14.1,0.3902,0.1017,0.2138,0.1534
+random,corner,25x25,0.1,A* (tie-break),unreachable,1,10,,11,0.0,2.0,0.0333,0.0,0.0047,0.0047
+random,corner,25x25,0.2,Dijkstra,solved,7,70,48.29,495.4,12.8,99.3,1.8325,0.0419,0.403,0.4062
+random,corner,25x25,0.2,Dijkstra,unreachable,3,30,,168,281.5,33.7,0.6385,1.079,0.9257,0.1398
+random,corner,25x25,0.2,A*,solved,7,70,48.29,346.1,53.0,69.4,1.4662,0.2345,0.3644,0.2941
+random,corner,25x25,0.2,A*,unreachable,3,30,,168,281.5,33.7,0.5915,0.9921,0.8262,0.0391
+random,corner,25x25,0.2,A* (tie-break),solved,7,70,48.29,128.3,86.6,25.8,0.5787,0.3581,0.3904,0.1621
+random,corner,25x25,0.2,A* (tie-break),unreachable,3,30,,168,281.5,33.7,0.7842,1.328,1.14,0.174
+random,corner,25x25,0.3,Dijkstra,solved,1,10,48,382,0.0,89.3,1.3718,0.0,0.348,0.348
+random,corner,25x25,0.3,Dijkstra,unreachable,9,90,,146.3,212.1,33.0,0.5971,0.8633,0.8761,0.1833
+random,corner,25x25,0.3,A*,solved,1,10,48,158,0.0,36.9,0.7072,0.0,0.3512,0.3512
+random,corner,25x25,0.3,A*,unreachable,9,90,,146.3,212.1,33.0,0.633,0.9096,0.8871,0.1304
+random,corner,25x25,0.3,A* (tie-break),solved,1,10,48,57,0.0,13.3,0.2578,0.0,0.0565,0.0565
+random,corner,25x25,0.3,A* (tie-break),unreachable,9,90,,146.3,212.1,33.0,0.6913,1.0032,0.9957,0.1734
+random,corner,50x50,0.1,Dijkstra,solved,10,100,98,2251,16.8,100.0,8.2304,0.5689,1.3914,1.256
+random,corner,50x50,0.1,A*,solved,10,100,98,1946.9,124.7,86.5,8.1673,0.7947,1.3314,1.0924
+random,corner,50x50,0.1,A* (tie-break),solved,10,100,98,193.6,50.7,8.6,0.9345,0.3221,0.4632,0.2695
+random,corner,50x50,0.2,Dijkstra,solved,9,90,98,1996.9,18.4,99.6,6.8658,0.6907,1.2653,1.0028
+random,corner,50x50,0.2,Dijkstra,unreachable,1,10,,4,0.0,0.2,0.0115,0.0,0.001,0.001
+random,corner,50x50,0.2,A*,solved,9,90,98,1289.9,173.7,64.3,5.2957,1.0832,1.3057,0.7447
+random,corner,50x50,0.2,A*,unreachable,1,10,,4,0.0,0.2,0.0135,0.0,0.0006,0.0006
+random,corner,50x50,0.2,A* (tie-break),solved,9,90,98,267.8,84.6,13.3,1.1306,0.3965,0.5166,0.2887
+random,corner,50x50,0.2,A* (tie-break),unreachable,1,10,,4,0.0,0.2,0.0126,0.0,0.0004,0.0004
+random,corner,50x50,0.3,Dijkstra,solved,8,80,101,1694.2,37.3,96.2,5.7379,0.2812,0.8096,0.778
+random,corner,50x50,0.3,Dijkstra,unreachable,2,20,,7.5,6.4,0.4,0.0239,0.0209,0.016,0.0039
+random,corner,50x50,0.3,A*,solved,8,80,101,748.2,333.7,42.4,3.0095,1.2581,1.279,0.4826
+random,corner,50x50,0.3,A*,unreachable,2,20,,7.5,6.4,0.4,0.0267,0.0225,0.0172,0.004
+random,corner,50x50,0.3,A* (tie-break),solved,8,80,101,439.5,433.3,24.9,1.7627,1.6699,1.6115,0.3087
+random,corner,50x50,0.3,A* (tie-break),unreachable,2,20,,7.5,6.4,0.4,0.0242,0.0198,0.0148,0.0029
+random,corner,100x100,0.1,Dijkstra,solved,10,100,198,8992.1,36.4,100.0,33.0919,2.7915,4.1528,2.8032
+random,corner,100x100,0.1,A*,solved,10,100,198,7868,239.0,87.5,33.0116,2.4065,3.7244,2.5749
+random,corner,100x100,0.1,A* (tie-break),solved,10,100,198,586.9,98.4,6.5,2.6864,0.4581,0.7109,0.5393
+random,corner,100x100,0.2,Dijkstra,solved,8,80,198,7969.8,63.0,99.7,28.7917,0.8383,2.8991,2.75
+random,corner,100x100,0.2,Dijkstra,unreachable,2,20,,2.5,0.7,0.0,0.0086,0.0022,0.002,0.0012
+random,corner,100x100,0.2,A*,solved,8,80,198,4857.9,488.8,60.7,20.308,1.9527,3.0104,2.2849
+random,corner,100x100,0.2,A*,unreachable,2,20,,2.5,0.7,0.0,0.0141,0.0028,0.0025,0.0013
+random,corner,100x100,0.2,A* (tie-break),solved,8,80,198,646.5,199.0,8.1,2.9006,0.7837,0.9312,0.5819
+random,corner,100x100,0.2,A* (tie-break),unreachable,2,20,,2.5,0.7,0.0,0.0132,0.0022,0.0017,0.0005
+random,corner,100x100,0.3,Dijkstra,solved,6,60,199,6820.8,59.9,97.5,24.7521,1.6281,3.6542,2.8612
+random,corner,100x100,0.3,Dijkstra,unreachable,4,40,,1712.8,3418.2,24.3,5.9711,11.9121,10.4599,0.2664
+random,corner,100x100,0.3,A*,solved,6,60,199,1549.7,542.5,22.2,6.4029,2.1514,2.2724,1.1269
+random,corner,100x100,0.3,A*,unreachable,4,40,,1712.8,3418.2,24.3,7.1233,14.199,12.501,0.573
+random,corner,100x100,0.3,A* (tie-break),solved,6,60,199,919.5,498.7,13.2,3.8138,1.9994,2.0094,0.7485
+random,corner,100x100,0.3,A* (tie-break),unreachable,4,40,,1712.8,3418.2,24.3,7.1068,14.1566,12.4548,0.526
+random,middle,10x10,0.1,Dijkstra,solved,10,100,7.8,62.9,5.6,70.6,0.1954,0.0421,0.0755,0.0383
+random,middle,10x10,0.1,A*,solved,10,100,7.8,13.8,7.7,15.5,0.0569,0.0325,0.0421,0.0133
+random,middle,10x10,0.1,A* (tie-break),solved,10,100,7.8,8.8,1.0,9.9,0.037,0.0099,0.0208,0.0087
+random,middle,10x10,0.2,Dijkstra,solved,9,90,9.89,61.6,9.3,76.2,0.189,0.0542,0.1182,0.058
+random,middle,10x10,0.2,Dijkstra,unreachable,1,10,,38,0.0,49.4,0.1103,0.0,0.0231,0.0231
+random,middle,10x10,0.2,A*,solved,9,90,9.89,25,14.8,31.5,0.096,0.0523,0.0965,0.0357
+random,middle,10x10,0.2,A*,unreachable,1,10,,38,0.0,49.4,0.2382,0.0,0.3537,0.3537
+random,middle,10x10,0.2,A* (tie-break),solved,9,90,9.89,16.2,10.3,20.4,0.0561,0.0327,0.0327,0.006
+random,middle,10x10,0.2,A* (tie-break),unreachable,1,10,,38,0.0,49.4,0.1073,0.0,0.003,0.003
+random,middle,10x10,0.3,Dijkstra,solved,8,80,9.75,50.2,11.5,68.7,0.1687,0.084,0.2327,0.0948
+random,middle,10x10,0.3,Dijkstra,unreachable,2,20,,44,18.4,67.4,0.1214,0.0581,0.045,0.0122
+random,middle,10x10,0.3,A*,solved,8,80,9.75,18.9,9.2,26.2,0.0683,0.0304,0.0313,0.0088
+random,middle,10x10,0.3,A*,unreachable,2,20,,44,18.4,67.4,0.1341,0.0614,0.0449,0.0046
+random,middle,10x10,0.3,A* (tie-break),solved,8,80,9.75,14,6.9,19.4,0.052,0.0263,0.0349,0.0158
+random,middle,10x10,0.3,A* (tie-break),unreachable,2,20,,44,18.4,67.4,0.13,0.0634,0.049,0.0138
+random,middle,25x25,0.1,Dijkstra,solved,10,100,24.8,440.8,20.1,78.6,1.4268,0.0652,0.3247,0.2983
+random,middle,25x25,0.1,A*,solved,10,100,24.8,67.1,19.2,12.0,0.2812,0.0929,0.1685,0.0928
+random,middle,25x25,0.1,A* (tie-break),solved,10,100,24.8,31.7,11.7,5.7,0.1366,0.0421,0.0538,0.03
+random,middle,25x25,0.2,Dijkstra,solved,8,80,27,409.8,21.3,82.2,1.3941,0.1553,0.4514,0.3931
+random,middle,25x25,0.2,Dijkstra,unreachable,2,20,,470.5,19.1,96.9,1.8189,0.3215,0.6366,0.5907
+random,middle,25x25,0.2,A*,solved,8,80,27,85.1,29.3,17.1,0.3168,0.1079,0.113,0.0419
+random,middle,25x25,0.2,A*,unreachable,2,20,,470.5,19.1,96.9,2.1831,0.4546,0.7406,0.6552
+random,middle,25x25,0.2,A* (tie-break),solved,8,80,27,50.2,24.4,10.1,0.2104,0.0964,0.1542,0.0777
+random,middle,25x25,0.2,A* (tie-break),unreachable,2,20,,470.5,19.1,96.9,1.9588,0.0595,0.7194,0.6757
+random,middle,25x25,0.3,Dijkstra,solved,7,70,31.43,336.4,48.4,76.6,1.0879,0.2509,0.3939,0.253
+random,middle,25x25,0.3,Dijkstra,unreachable,3,30,,268.7,230.1,62.6,0.8076,0.6797,0.5721,0.0848
+random,middle,25x25,0.3,A*,solved,7,70,31.43,115,23.9,26.3,0.443,0.0855,0.1564,0.1188
+random,middle,25x25,0.3,A*,unreachable,3,30,,268.7,230.1,62.6,0.9813,0.835,0.7452,0.2312
+random,middle,25x25,0.3,A* (tie-break),solved,7,70,31.43,86.6,21.5,19.8,0.3123,0.0658,0.1133,0.0843
+random,middle,25x25,0.3,A* (tie-break),unreachable,3,30,,268.7,230.1,62.6,0.9109,0.7854,0.6872,0.1517
+random,middle,50x50,0.1,Dijkstra,solved,10,100,51.6,1803.8,60.6,80.1,6.1219,0.3458,0.8351,0.7606
+random,middle,50x50,0.1,A*,solved,10,100,51.6,187.6,70.4,8.3,0.8099,0.2802,0.4004,0.2568
+random,middle,50x50,0.1,A* (tie-break),solved,10,100,51.6,110.2,47.3,4.9,0.4632,0.1867,0.2177,0.1056
+random,middle,50x50,0.2,Dijkstra,solved,10,100,56.8,1729.2,83.5,86.4,5.7139,0.3702,0.8398,0.7689
+random,middle,50x50,0.2,A*,solved,10,100,56.8,325,96.8,16.2,1.3399,0.3929,0.6151,0.419
+random,middle,50x50,0.2,A* (tie-break),solved,10,100,56.8,232.2,84.8,11.6,0.8861,0.3497,0.4129,0.1879
+random,middle,50x50,0.3,Dijkstra,solved,8,80,65.25,1486.1,77.2,84.9,4.8769,0.3089,0.7506,0.686
+random,middle,50x50,0.3,Dijkstra,unreachable,2,20,,10,7.1,0.6,0.0319,0.0237,0.0179,0.0047
+random,middle,50x50,0.3,A*,solved,8,80,65.25,403.4,73.5,23.1,1.6053,0.2522,0.558,0.5028
+random,middle,50x50,0.3,A*,unreachable,2,20,,10,7.1,0.6,0.0358,0.0266,0.0204,0.0051
+random,middle,50x50,0.3,A* (tie-break),solved,8,80,65.25,328.5,73.9,18.8,1.2831,0.3316,0.5408,0.3943
+random,middle,50x50,0.3,A* (tie-break),unreachable,2,20,,10,7.1,0.6,0.0334,0.0231,0.0174,0.0046
+random,middle,100x100,0.1,Dijkstra,solved,10,100,105.2,7270.7,137.0,80.9,25.9354,0.7083,1.9988,1.8156
+random,middle,100x100,0.1,A*,solved,10,100,105.2,581.1,152.8,6.5,2.4374,0.614,0.7614,0.4708
+random,middle,100x100,0.1,A* (tie-break),solved,10,100,105.2,367.3,137.9,4.1,1.6115,0.4957,0.6233,0.389
+random,middle,100x100,0.2,Dijkstra,solved,10,100,114.8,6927,204.7,86.7,24.5529,1.5803,2.4916,1.8925
+random,middle,100x100,0.2,A*,solved,10,100,114.8,1069.2,228.7,13.4,4.2727,0.7474,1.06,0.7957
+random,middle,100x100,0.2,A* (tie-break),solved,10,100,114.8,881.3,222.5,11.0,3.6212,0.9205,1.0978,0.6701
+random,middle,100x100,0.3,Dijkstra,solved,9,90,129.22,6077.3,305.0,86.8,21.0117,1.559,2.5052,1.8179
+random,middle,100x100,0.3,Dijkstra,unreachable,1,10,,6796,0.0,97.4,22.8911,0.0,1.8336,1.8336
+random,middle,100x100,0.3,A*,solved,9,90,129.22,1427.3,317.8,20.4,5.4676,1.4865,1.5953,0.7195
+random,middle,100x100,0.3,A*,unreachable,1,10,,6796,0.0,97.4,24.9427,0.0,1.1726,1.1726
+random,middle,100x100,0.3,A* (tie-break),solved,9,90,129.22,1260.7,318.4,18.0,4.9022,1.4907,1.697,0.8608
+random,middle,100x100,0.3,A* (tie-break),unreachable,1,10,,6796,0.0,97.4,25.006,0.0,1.31,1.31
+scenario,fixed,20x30,0.172,Dijkstra,solved,1,10,35,459,0.0,92.4,1.5923,0.0,0.5718,0.5718
+scenario,fixed,20x30,0.172,A*,solved,1,10,35,149,0.0,30.0,0.5369,0.0,0.0268,0.0268
+scenario,fixed,20x30,0.172,A* (tie-break),solved,1,10,35,82,0.0,16.5,0.3481,0.0,0.1312,0.1312
+unreachable,fixed,20x30,0.198,Dijkstra,unreachable,1,10,,414,0.0,86.1,1.5724,0.0,0.5494,0.5494
+unreachable,fixed,20x30,0.198,A*,unreachable,1,10,,414,0.0,86.1,1.4489,0.0,0.2657,0.2657
+unreachable,fixed,20x30,0.198,A* (tie-break),unreachable,1,10,,414,0.0,86.1,1.5263,0.0,0.4633,0.4633
